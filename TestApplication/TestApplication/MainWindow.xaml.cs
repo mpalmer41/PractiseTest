@@ -29,5 +29,10 @@ namespace TestApplication
         {
             lblText.Content = "Hello world!";
         }
+
+        private void btnQuit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close(); // I think this is right...
+        }
     }
 }
