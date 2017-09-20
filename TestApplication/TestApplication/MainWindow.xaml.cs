@@ -24,5 +24,10 @@ namespace TestApplication
         {
             InitializeComponent();
         }
+
+        private void btnClickMe_Click(object sender, RoutedEventArgs e)
+        {
+            lblText.Content = "Hello world!";
+        }
     }
 }

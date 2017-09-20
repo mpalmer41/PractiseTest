@@ -8,7 +8,7 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Label x:Name="lblText" Content="Please Click Button" HorizontalAlignment="Left" Margin="32,69,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnClickMe" Content="Click Me" HorizontalAlignment="Left" Margin="44,123,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnClickMe" Content="Click Me" HorizontalAlignment="Left" Margin="44,123,0,0" VerticalAlignment="Top" Width="75" Click="btnClickMe_Click"/>
 
     </Grid>
 </Window>
